@@ -1,47 +1,245 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
-
 img {
     display: flex;
-    padding: 30px;
+    margin-left: 10px;
     border-radius: 50%;
-    padding-right: 5%;
+    margin-right: 12px;
+    margin-top: 30px;
+    box-shadow: 1px 1px 5px 7px rgba(0, 0, 0, .2);
 }
 
 .top h2 {
-    line-height: 0px;
+    line-height: 5px;
+    font-weight: 400;
 }
 
 .name {
-    padding-top: 4%;   
+    padding-top: 4%;
     font-weight: bolder;
 }
 
 body {
-    background-color: beige ;
-    padding-left: 5%;
+    background-color: #7D6E83;
 }
 
 * {
     font-family: 'Crimson Text', serif;
 }
 
+.column1 {
+    flex: 5%;
+    height: 100%;
+    padding: 5px;
+    margin: 3px;
+    background-color: #D0B8A8;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, .8);
+}
+
+.column2 {
+    flex: 95%;
+    padding-left: 20px;
+    margin-left: 20px;
+    background-color: #eeded0;
+    border-radius: 10px;
+    box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, .8);
+}
+
+.container {
+    display: flex;
+}
+
+.box {
+    background-color: #DFD3C3;
+    border-radius: 10px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 850px;
+    border: 2in;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    box-shadow: 1px 1px 5px 7px rgba(0, 0, 0, .4);
+}
+
+hr {
+    margin-top: .3in;
+    border-color: black;
+    width: 1.5in;
+}
+
+.top h1 {
+    text-shadow: 1px 1px 3px #000000;
+}
+
+.column1 h4 {
+    text-align: left;
+    font-size: x-large;
+    padding-left: 0px;
+}
+
+.aboutme h4 {
+    margin: 0px;
+    margin-top: 40px;
+}
+
+.aboutme p {
+    margin: 0px;
+}
+
+.aboutme {
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.contacts h4 {
+    margin: 0px;
+    margin-top: 40px;
+    margin-left: 10px;
+    font-weight: 1000;
+}
+
+.contacts ul {
+    padding-left: 0px;
+    text-align: left;
+    display: flex;
+}
+
+.fa-solid.fa-location-dot {
+    font-size: 25px;
+    margin-right: 5px;
+    margin-left: 9px;
+}
+
+.fa-solid.fa-phone {
+    font-size: 22px;
+    margin-right: 5px;
+    margin-left: 9px;
+}
+
+.fa-solid.fa-envelope {
+    font-size: 22px;
+    margin-right: 5px;
+    margin-left: 9px;
+}
+
+.fa-brands.fa-square-instagram {
+    font-size: 25px;
+    margin-right: 5px;
+    margin-left: 9px;
+}
+
+.fa-brands.fa-square-facebook {
+    font-size: 24px;
+    margin-right: 5px;
+    margin-left: 9px;
+}
+
+.fa-brands.fa-square-github {
+    font-size: 25px;
+    margin-right: 5px;
+    margin-left: 9px;
+}
+
+.educ h1,
+.skill h1,
+.cert h1,
+.inter h1,
+.sec h1 {
+    margin-left: 20px;
+    margin-top: 40px;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.list {
+    margin-left: 30px;
+}
+
+.list b {
+    font-size: 20px
+}
+
+.list li {
+    font-size: 17px;
+}
+
+.skillist li {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 33px;
+}
+
+.skillist li:before {
+    content: "\2714\0020";
+    padding-right: 5px;
+}
+
+.reference {
+    margin-left: 300px;
+    font-size: 20px;
+}
+
+.cerlist li {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 33px;
+}
+
+.cerlist li:before {
+    content: "\2714\0020";
+    padding-right: 5px;
+}
+
+.int li {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 33px;
+}
+
+.int li:before {
+    content: "\2714\0020";
+    padding-right: 5px;
+}
+
+td {
+    padding-left: 60px;
+}
+
+table {
+    margin-top: -35px;
+    border-collapse: collapse;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.link {
+    text-align: right;
+}
+
+
 /*--------------------contact---------------------- */
 
-
-.submitt{
+.submitt {
     background-color: green;
     color: white;
     padding: 4px;
 }
 
 .resett {
-    background-color: red ;
+    background-color: red;
     color: white;
     padding: 4px;
-    padding-left: 9px;
+    padding-left: 11px;
     padding-right: 9px;
 }
 
-.contacts{
+.contacts {
     width: 2;
 }
