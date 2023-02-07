@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+img {
+    display: flex;
+    padding: 30px;
+    border-radius: 50%;
+    padding-right: 5%;
+}
+
+.top h2 {
+    line-height: 0px;
+}
+
+.name {
+    padding-top: 4%;   
+    font-weight: bolder;
+}
+
+body {
+    background-color: beige ;
+    padding-left: 5%;
+}
+
+* {
+    font-family: 'Crimson Text', serif;
+}
+
+/*--------------------contact---------------------- */
+
+
+.submitt{
+    background-color: green;
+    color: white;
+    padding: 4px;
+}
+
+.resett {
+    background-color: red ;
+    color: white;
+    padding: 4px;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+.contacts{
+    width: 2;
+}
