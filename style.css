@@ -45,7 +45,7 @@ body {
 
 .column2 {
     flex: 95%;
-    padding-left: 20px;
+    padding-left: 40px;
     margin-left: 20px;
     background-color: #eeded0;
     border-radius: 10px;
@@ -59,10 +59,10 @@ body {
 .box {
     background-color: #C7B198;
     border-radius: 10px;
-    margin-top: auto;
+    margin-top: .2in;
     margin-left: auto;
     margin-right: auto;
-    width: 850px;
+    width: 800px;
     border: 2in;
     padding-left: 50px;
     padding-right: 50px;
@@ -94,6 +94,7 @@ hr {
 
 .aboutme p {
     margin: 0px;
+    font-size: 18px
 }
 
 .aboutme {
@@ -169,15 +170,15 @@ hr {
 }
 
 .list b {
-    font-size: 20px
+    font-size: 22px
 }
 
 .list li {
-    font-size: 17px;
+    font-size: 21px;
 }
 
 .skillist li {
-    font-size: 20px;
+    font-size: 21px;
     font-weight: 500;
     margin-left: 33px;
 }
@@ -190,11 +191,11 @@ hr {
 
 .reference {
     margin-left: 300px;
-    font-size: 20px;
+    font-size: 21px;
 }
 
 .cerlist li {
-    font-size: 20px;
+    font-size: 21px;
     font-weight: 500;
     margin-left: 33px;
 }
@@ -206,7 +207,7 @@ hr {
 }
 
 .int li {
-    font-size: 20px;
+    font-size: 21px;
     font-weight: 500;
     margin-left: 33px;
 }
@@ -228,23 +229,74 @@ table {
     margin-left: 20px;
 }
 
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
 
 /*--------------------contact---------------------- */
 
 .submitt {
     background-color: green;
     color: white;
-    padding: 4px;
+    padding-left: 7px;
+    margin-left: 3.69in;
+    width: 10%;
 }
 
 .resett {
     background-color: red;
     color: white;
-    padding: 4px;
+    padding: -1px;
     padding-left: 11px;
     padding-right: 9px;
+    margin-left: 22px;
+    margin-right: auto;
+    margin-top: -30px;
 }
 
-.contacts {
-    width: 2;
+.space {
+    width: 90%;
+    display: flex;
+    margin-bottom: -19px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: beige;
+    border: 90px;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    box-shadow: 1px 1px 5px 7px rgba(0, 0, 0, .1);
+}
+
+.contbox {
+    background-color: #C7B198;
+    border-radius: 10px;
+    margin-top: 2in;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    border: 2in;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    box-shadow: 1px 1px 5px 7px rgba(0, 0, 0, .4);
+}
+
+.contbox h1 {
+    text-align: center;
+    font-weight: 600;
 }
