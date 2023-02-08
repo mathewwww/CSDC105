@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 img {
     display: flex;
     margin-left: 10px;
@@ -13,13 +14,17 @@ img {
     font-weight: 400;
 }
 
+.top h1 {
+    color: rgb(64, 165, 165);
+}
+
 .name {
     padding-top: 4%;
     font-weight: bolder;
 }
 
 body {
-    background-color: #7D6E83;
+    background-color: #596E79;
 }
 
 * {
@@ -31,7 +36,7 @@ body {
     height: 100%;
     padding: 5px;
     margin: 3px;
-    background-color: #D0B8A8;
+    background-color: #DFD3C3;
     text-align: center;
     border-radius: 10px;
     box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, .8);
@@ -51,7 +56,7 @@ body {
 }
 
 .box {
-    background-color: #DFD3C3;
+    background-color: #C7B198;
     border-radius: 10px;
     margin-top: auto;
     margin-left: auto;
@@ -179,6 +184,7 @@ hr {
 .skillist li:before {
     content: "\2714\0020";
     padding-right: 5px;
+    color: green;
 }
 
 .reference {
@@ -195,6 +201,7 @@ hr {
 .cerlist li:before {
     content: "\2714\0020";
     padding-right: 5px;
+    color: green;
 }
 
 .int li {
@@ -206,6 +213,7 @@ hr {
 .int li:before {
     content: "\2714\0020";
     padding-right: 5px;
+    color: green;
 }
 
 td {
@@ -217,10 +225,6 @@ table {
     border-collapse: collapse;
     font-size: 20px;
     margin-left: 20px;
-}
-
-.link {
-    text-align: right;
 }
 
 
